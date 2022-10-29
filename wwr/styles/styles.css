@@ -138,9 +138,10 @@ h2 {
     margin: 0;
 }
 #logo_link {
-    padding-top: 5px;
     justify-self: center;
     align-self: center;
+    padding-top: 5px;
+    
 }
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
