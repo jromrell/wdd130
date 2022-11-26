@@ -1,0 +1,74 @@
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #D31F1F;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    font-size: 1.75em;
+    text-decoration: none;
+    padding: 35px;
+}
+header {
+    background-color: #086788;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav a:hover {
+    background-color: #D31F1F;
+}
+
+.logo {
+    justify-self: center;
+    align-self: center;
+    padding-bottom: 0px;
+}
+.home-title {
+    font-family: "Kanit", 'Lato', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.home-page-content {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 100px;
+}
+
+.home-images {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 1fr;
+    margin-top: -30px;
+}
+
+.usflag {
+    size-adjust: auto;
+    grid-column: 6/9;
+    grid-row: 1;
+    padding: 30px;
+}
+
+.map-lights {
+    grid-column: 2/6;
+    grid-row: 1;
+    padding: 30px;
+}
+
+body {
+    background-color: #086788; 
+    padding: 0;
+    margin: 0;
+}
+.social {
+    margin-left: 45%;
+    padding: 15px;
+}
+

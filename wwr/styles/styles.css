@@ -12,6 +12,7 @@ nav {
 
 nav a {
     text-align: center;
+    
     text-decoration: none;
     padding: 35px;
 }
@@ -37,11 +38,6 @@ nav a {
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
     color: #FFB703;
-}
-
-.home-grid {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
 }
 
 .button-box {
