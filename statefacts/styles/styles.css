@@ -114,8 +114,8 @@ hr {
 .idaho-page-content{
   grid-column: 4;
   width: 100%;
-  align-content: center;
-  padding-top: 25%;
+  text-align: center;
+  font-size: 1.5em;
 
  
 }
@@ -123,9 +123,10 @@ hr {
   grid-column: 2;
   align-content: center;
   width: 100%;
-  padding-top: 25%;
+  padding-top: 10%;
   text-align: center;
   grid-row: 3;
+  font-size: 1.5em;
   
 }
 .idstateoutline {
@@ -154,7 +155,8 @@ hr {
   grid-row: 2;
   width: 100%;
   align-content: center;
-  padding-top: 25%;
+  padding-top: 15%;
+  font-size: 1.5em;
  
   
 
@@ -173,7 +175,8 @@ hr {
   grid-column: 4;
   align-content: center;
   width: 100%;
-  padding-top: 20%;
+  font-size: 1.5em;
+  padding-top: 10%;
   text-align: center;
   grid-row: 3;
 }
