@@ -34,31 +34,35 @@ nav a:hover {
     font-family: "Kanit", 'Lato', sans-serif;
     font-size: 2.5em;
     text-align: center;
+    grid-column: 4/6;
+    grid-row: 1;
 }
 
+
+.home-page-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
 .home-page-content {
     text-align: center;
     font-size: 1.5em;
     padding: 100px;
-}
-
-.home-images {
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: 1fr;
-    margin-top: -30px;
+    grid-column: 1/9;
+    grid-row: 1;
 }
 
 .usflag {
-    grid-column: 6/9;
+    grid-column: 5/9;
     grid-row: 1;
     padding: 30px;
+    grid-row: 2;
 }
 
 .map-lights {
-    grid-column: 2/6;
+    grid-column: 1/5;
     grid-row: 1;
     padding: 30px;
+    grid-row: 2;
 }
 
 body {
@@ -67,30 +71,16 @@ body {
     margin: 0;
 }
 .social {
-    margin-left: 45%;
-    padding: 15px;
+    margin-left: 44%;
+    padding-top: 150px;
+    
 }
-* {box-sizing: border-box}
-
-/* Full-width input fields */
-  input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
+.plan-link{
+  align-content: center;
 }
 
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
 
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
+
 
 
 .idaho-page-grid {
@@ -183,50 +173,3 @@ hr {
 }
 
 
-
-/* Set a style for all buttons */
-button {
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-button:hover {
-  opacity:1;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-
-/* Add padding to container elements */
-.container {
-  padding: 16px;
-}
-
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-    width: 100%;
-  }
-}
